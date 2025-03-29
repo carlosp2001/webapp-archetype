@@ -10,7 +10,7 @@ public class HelloWorldController extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("application/json");
         response.setStatus(HttpServletResponse.SC_OK);
-        response.getWriter().println("{\"message\": \"Hello, World I'm integrating jenkins with github, second time!\"}");
+        response.getWriter().println("{\"message\": \"Hello, World I'm integrating jenkins with github\"}");
         response.getWriter().flush();
     }
 
